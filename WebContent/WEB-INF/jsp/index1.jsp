@@ -1,6 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -16,6 +13,8 @@
       <h1>Informações Pessoais</h1>
     </header>
     <div class="main-content">
+
+
       <div class="profile-picture">
         <img src="resources/images/profile_picture.jpg" alt="Foto de Perfil">
       </div>
@@ -38,6 +37,11 @@
         <a href="https://github.com/EduZZZ">
           <i class="fab fa-github"></i>
         </a>
+
+        <!-- Botão para a próxima página -->
+              <a href="/ado2/index2" class="next-page-button">
+                Proxima pagina =>
+              </a>
       </div>
     </footer>
   </div>
