@@ -7,11 +7,13 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class Index_controller {
 
-	/**
-	 * View da HomePage
-	 * */
 	@RequestMapping("/index1")
-	public ModelAndView home() {
+	public ModelAndView index1() {
 		return new ModelAndView("index1");
+	}
+
+	@RequestMapping("/index2")
+	public ModelAndView index2() {
+		return new ModelAndView("index2");
 	}
 }

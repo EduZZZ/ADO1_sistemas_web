@@ -1,9 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../../../../../DevWeb/ado1/styles1.css">
+  <link rel="stylesheet" href="resources/css/styles1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <title>Informações Pessoais</title>
 </head>
@@ -14,7 +17,7 @@
     </header>
     <div class="main-content">
       <div class="profile-picture">
-        <img src="../../../../../../DevWeb/ado1/profile_picture.jpg" alt="Foto de Perfil">
+        <img src="resources/images/profile_picture.jpg" alt="Foto de Perfil">
       </div>
       <div class="personal-info">
         <h2>Nome Completo</h2>
